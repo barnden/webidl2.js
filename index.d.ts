@@ -183,6 +183,7 @@ export interface Token {
     trivia: string;
     line: number;
     index: number;
+    column: number;
 }
 
 export interface AbstractBase {
